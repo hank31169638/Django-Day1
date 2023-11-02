@@ -7,11 +7,14 @@
 
 ## 初始化
 ![image](https://github.com/hank31169638/Django-/assets/128702246/82c46516-0345-4801-a5ab-fc72199bc7af)
+
 創建完後請找到和manage.py同資料夾的地方打開cmd
 然後打 py manage.py runserver   若沒py這個指令的可以試試python or python3 或是你沒將環境建置到path內
 ![image](https://github.com/hank31169638/Django-/assets/128702246/355058cc-7859-45a9-a27c-2b657b8b4758)
+
 使用pycharm建置有可能會出現這種情況，請進入setting.py內找到
 ![image](https://github.com/hank31169638/Django-/assets/128702246/517b45ab-91ff-46cb-a359-d55283dd6017)
+
 並將BASE_DIR / 'templates' 的 / 改成 ,
 
 然後對cmd彈出的網址ctrl + 左鍵
